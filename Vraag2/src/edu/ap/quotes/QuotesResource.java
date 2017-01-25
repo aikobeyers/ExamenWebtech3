@@ -8,8 +8,14 @@ public class QuotesResource extends ServerResource {
 	
 	@Get
 	public String allQuotes(){
-		/*Methode om alle quotes op te halen*/
+		/*Methode om alle quotes op te halen.*/
 		return "Success";
+	}
+	@Post
+	public String searchQuote(String query)
+	{
+		/*Methode om de Quote te zoeken die de query bevat.*/
+		return "Searchquery";
 	}
 	
 	
